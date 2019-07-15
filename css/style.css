@@ -1,0 +1,177 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    width: 100%;
+    font-size: 28px;
+    font-family: "Share Tech", sans-serif;
+    font-weight: bold;
+}
+
+#header {
+    text-align: center;
+    display: block;
+}
+
+#header-img {
+    margin-bottom: 30px;
+}
+
+#nav-bar {
+    text-align: center;
+    height: 100px;
+    display: inline-block;
+    line-height: 100px;
+}
+
+.nav-link {
+    margin: 20px;
+}
+
+ul {
+    text-align: center;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul li {
+    text-decoration: none;
+}
+
+/* End of the header styling */
+
+/* Begins the features styling */
+
+.features-container {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 3fr 1fr 3fr;
+    grid-template-rows: 1fr;
+}
+
+body {
+    animation: rainbow-background 20s infinite;
+}
+
+@keyframes rainbow-background {
+    0% {
+        background-color: #ff0000;
+    }
+
+    8.333% {
+        background-color: #ff8000;
+    }
+
+    16.667% {
+        background-color: #ffff00;
+    }
+
+    25.000% {
+        background-color: #80ff00;
+    }
+
+    33.333% {
+        background-color: #00ff00;
+    }
+
+    41.667% {
+        background-color: #00ff80;
+    }
+
+    50.000% {
+        background-color: #00ffff;
+    }
+
+    58.333% {
+        background-color: #0080ff;
+    }
+
+    66.667% {
+        background-color: #0000ff;
+    }
+
+    75.000% {
+        background-color: #8000ff;
+    }
+
+    83.333% {
+        background-color: #ff00ff;
+    }
+
+    91.667% {
+        background-color: #ff0080;
+    }
+
+    100.00% {
+        background-color: #ff0000;
+    }
+}
+
+.left-feature {
+    margin: 15%;
+}
+
+.right-feature {
+    margin: 15%;
+}
+
+.about-container {
+    background-color: #8000ff;
+    text-align: center;
+    height: 350px;
+    margin-top: 0%;
+}
+
+.pricing-container {
+    display: grid;
+    text-align: center;
+    background-color: #ffff00;
+    height: 600px;
+    margin: 10%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-radius: 10px;
+}
+
+.price-container {
+    margin: 10%;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.price-container li {
+    list-style: none;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.price-title {
+    margin-top: 30px;
+    background-color: #8000ff;
+    color: white;
+}
+
+.price-button {
+    font-size: 20px;
+    color: white;
+    background-color: #8000ff;
+    height: 60px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.price-button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+        0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
